@@ -30,13 +30,6 @@
 (add-hook 'text-mode-hook 'visual-line-mode)
 (define-key text-mode-map (kbd "TAB") 'tab-to-tab-stop)
 
-; Load el4r, which loads Xiki
-;(add-to-list 'load-path "/home/marc/.gem/ruby/gems/trogdoro-el4r-1.0.10/data/emacs/site-lisp/")
-;(require 'el4r)
-;(el4r-boot)
-;(el4r-troubleshooting-keys)
-;
-
 (require 'epa-file)
 (epa-file-enable)
 
